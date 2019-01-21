@@ -1,46 +1,35 @@
-// @font-face {
-//   font-family: 'Raleway Regular';
-//   src: url('/home/matthias/Documents/dev/vue-apollo-test/src/assets/fonts/Raleway-Regular.woff')
-//     format('woff');
-//   font-weight: 400;
-//   font-style: normal;
-//   font-display: block;
-// }
-
-// @font-face {
-//   font-family: 'Signika Regular';
-//   src: url('/assets/fonts/Signika-Regular.woff') format('woff');
-//   font-weight: 400;
-//   font-style: normal;
-//   font-display: block;
-// }
-
 @font-face {
-  font-family: 'signika';
-  src: url('/assets/fonts/Signika-Regular.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/Signika-Regular.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('/assets/fonts/Signika-Regular.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('/assets/fonts/Signika-Regular.woff')
-      format('woff'),
-    /* Pretty Modern Browsers */ url('/assets/fonts/Signika-Regular.ttf')
-      format('truetype'),
-    /* Safari, Android, iOS */
-      url('/assets/fonts/Signika-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  src: url("~@/assets/fonts/raleway/Raleway-Regular.eot");
+  src: url("~@/assets/fonts/raleway/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/raleway/Raleway-Regular.woff2") format("woff2"),
+    url("~@/assets/fonts/raleway/Raleway-Regular.woff") format("woff"),
+    url("~@/assets/fonts/raleway/Raleway-Regular.ttf") format("truetype"),
+    url("~@/assets/fonts/raleway/Raleway-Regular.svg#svgFontName") format("svg");
 }
 
 @font-face {
-  font-family: 'raleway';
-  src: url('http://localhost:8080/src/styles/fonts/Raleway-Regular.woff2/Raleway-Regular.eot'); /* IE9 Compat Modes */
-  src: url('/styles/fonts/Raleway-Regular.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */
-      url('http://localhost:8080/src/styles/fonts/Raleway-Regular.woff2')
-      format('woff2'),
-    /* Super Modern Browsers */ url('/styles/fonts/Raleway-Regular.woff')
-      format('woff'),
-    /* Pretty Modern Browsers */ url('/styles/fonts/Raleway-Regular.ttf')
-      format('truetype'),
-    /* Safari, Android, iOS */
-      url('/styles/fonts/Raleway-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: "Signika";
+  font-style: normal;
+  font-weight: normal;
+  src: url("~@/assets/fonts/signika/Signika-Regular.eot");
+  src: url("~@/assets/fonts/signika/Signika-Regular.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/signika/Signika-Regular.woff2") format("woff2"),
+    url("~@/assets/fonts/signika/Signika-Regular.woff") format("woff"),
+    url("~@/assets/fonts/signika/Signika-Regular.ttf") format("truetype"),
+    url("~@/assets/fonts/signika/Signika-Regular.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: normal;
+  src: url("~@/assets/fonts/pacifico/Pacifico-Regular.eot");
+  src: url("~@/assets/fonts/pacifico/Pacifico-Regular.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/pacifico/Pacifico-Regular.woff2") format("woff2"),
+    url("~@/assets/fonts/pacifico/Pacifico-Regular.woff") format("woff"),
+    url("~@/assets/fonts/pacifico/Pacifico-Regular.ttf") format("truetype"),
+    url("~@/assets/fonts/pacifico/Pacifico-Regular.svg#Pacifico-Regular") format("svg");
 }

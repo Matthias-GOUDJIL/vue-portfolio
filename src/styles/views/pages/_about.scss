@@ -1,0 +1,88 @@
+.about {
+  display : flex;
+  #presentation-card {
+    display : grid;
+    max-width : 960px;
+    min-height : calc(100vh - 300px);
+    margin : auto;
+    padding : 1em 2em;
+    text-align : left;
+    grid-template-columns : 1fr;
+    grid-template-rows : minmax(100px, auto);
+    grid-row-gap : 20px;
+    grid-template-areas : "img"
+      "title"
+      "subtitle"
+      "content";
+  }
+  img {
+    width : 25%;
+    min-width : 80px;
+    max-width : 150px;
+    height : auto;
+    grid-area : img;
+    justify-self : center;
+  }
+  #title {
+    padding-bottom : 1rem;
+    text-align : center;
+    grid-area : title;
+  }
+  #subtitle {
+    position : relative;
+    padding : 1rem;
+    border-top : 2px solid $shadow;
+    border-bottom : 2px solid $shadow;
+    text-align : center;
+    grid-area : subtitle;
+    &::before {
+      content : "“";
+      position : absolute;
+      top : 0;
+      left : 0;
+      font-size : 2em;
+    }
+    &::after {
+      content : "„";
+      position : absolute;
+      right : 0;
+      font-size : 2em;
+    }
+  }
+  #content {
+    text-indent : 1em;
+    grid-area : content;
+  }
+
+  @include md {
+    #presentation-card {
+      align-content : center;
+      align-items : center;
+      justify-items : center;
+      text-align : justify;
+      text-justify : inter-word;
+      grid-template-columns : repeat(4, 1fr);
+      grid-template-areas : "img title title title"
+        "img subtitle subtitle subtitle"
+        "content content content content";
+    }
+    img {
+      width : 100%;
+      justify-self : start;
+    }
+    #title {
+      align-self : end;
+      text-align : left;
+      grid-area : title;
+      justify-self : start;
+    }
+    #subtitle {
+      align-self : start;
+      padding : 1em;
+    }
+    #content {
+      align-self : start;
+      padding-top : 1rem;
+    }
+  }
+}

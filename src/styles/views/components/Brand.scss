@@ -1,0 +1,15 @@
+.brand {
+  display: inline-block;
+  padding: 1em;
+  font-size: calc(0.6em + 0.3vh);
+  &-title {
+    display: inline-block;
+    font-family: $font-family-3;
+    font-weight: lighter;
+  }
+  &-subtitle {
+    display: inline-block;
+    font-weight: 200;
+    vertical-align: sub;
+  }
+}

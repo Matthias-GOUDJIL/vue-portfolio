@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Signika';
+  src: url('~@/assets/signika/Signika-Regular.eot');
+  src: url('~@/assetssignika/Signika-Regular.eot?#iefix') format('embedded-opentype'),
+    url('~@/assets/signika/Signika-Regular.woff2') format('woff2'),
+    url('~@/assets/signika/Signika-Regular.woff') format('woff'),
+    url('~@/assets/signika/Signika-Regular.ttf') format('truetype'),
+    url('~@/assets/signika/Signika-Regular.svg#svgFontName') format('svg');
+}

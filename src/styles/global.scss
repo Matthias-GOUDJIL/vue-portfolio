@@ -1,9 +1,54 @@
-@import 'setup/normalize.scss';
-// @import 'setup/typography.scss';
-@import 'setup/variables.scss';
-// @import "setup/mixins.scss";
+@import "setup/typography.scss";
+@import "setup/mixins.scss";
+@import "setup/normalize.scss";
+@import "setup/animations.scss";
+@import "setup/variables.scss";
 
 // @import "basics/base.scss";
 // @import "basics/layout.scss";
 // @import "basics/links.scss";
 // @import "basics/buttons.scss";
+
+//Responsive font-size
+html {
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+}
+// h1 {
+//   font-size: $mod_1 * $mod_1 * $mod_1 * $mod_1 * 1rem;
+//   @include fluid-type(
+//     $min_width,
+//     $max_width,
+//     $mod_1 * $mod_1 * $mod_1 * $min_font,
+//     $mod_2 * $mod_2 * $mod_2 * $min_font
+//   );
+// }
+// h2 {
+//   font-size: $mod_1 * $mod_1 * $mod_1 * 1rem;
+//   @include fluid-type(
+//     $min_width,
+//     $max_width,
+//     $mod_1 * $mod_1 * $mod_1 * $min_font,
+//     $mod_2 * $mod_2 * $mod_2 * $min_font
+//   );
+// }
+// h3 {
+//   font-size: $mod_1 * $mod_1 * 1rem;
+//   @include fluid-type(
+//     $min_width,
+//     $max_width,
+//     $mod_1 * $mod_1 * $min_font,
+//     $mod_2 * $mod_2 * $min_font
+//   );
+// }
+
+//basic list
+ul {
+  padding: 0;
+  list-style-type: none;
+  li {
+    display: inline-block;
+    a {
+      color: $secondary;
+    }
+  }
+}
