@@ -8,17 +8,17 @@
 
 <script>
 export default {
-	name: "Brand",
-	props: {
-		title: {
-			type: String,
-			default: "title",
-		},
-		subtitle: {
-			type: String,
-			default: "subtitle",
-		},
-	},
+  name: "Brand",
+  props: {
+    title: {
+      type: String,
+      default: "title",
+    },
+    subtitle: {
+      type: String,
+      default: "subtitle",
+    },
+  },
 };
 </script>
 

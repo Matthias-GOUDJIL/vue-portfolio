@@ -43,16 +43,16 @@
 <script>
 import Brand from "@/views/components/Brand.vue";
 export default {
-	name: "Home",
-	components: {
-		Brand,
-	},
-	data() {
-		return {
-			title: "Matthias Goudjil",
-			subtitle: "web dev",
-		};
-	},
+  name: "Home",
+  components: {
+    Brand,
+  },
+  data() {
+    return {
+      title: "Matthias Goudjil",
+      subtitle: "web dev",
+    };
+  },
 };
 </script>
 

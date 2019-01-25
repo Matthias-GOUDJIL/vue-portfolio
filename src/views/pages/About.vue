@@ -26,9 +26,9 @@ export default {
       content: `"J'ai décidé au début de l'année 2018 d'entreprendre une reconversion professionnelle en suivant une formation "développeur web" chez ARINFO.
       Cette formation intensive labellisée Grande Ecole du Numérique et orientée projets (80% de pratique), m'a permis d'acquérir de vraies compétences en tant que développeur junior ou intégrateur web."`,
 
-      alt: "profil.jpg"
+      alt: "profil.jpg",
     };
-  }
+  },
 };
 </script>
 
