@@ -1,6 +1,6 @@
 .about {
   display : flex;
-  #presentation-card {
+  .presentation-card {
     display : grid;
     max-width : 960px;
     min-height : calc(100vh - 300px);
@@ -23,12 +23,12 @@
     grid-area : img;
     justify-self : center;
   }
-  #title {
+  .title {
     padding-bottom : 1rem;
     text-align : center;
     grid-area : title;
   }
-  #subtitle {
+  .subtitle {
     position : relative;
     padding : 1rem;
     border-top : 2px solid $shadow;
@@ -49,13 +49,13 @@
       font-size : 2em;
     }
   }
-  #content {
+  .content {
     text-indent : 1em;
     grid-area : content;
   }
 
   @include md {
-    #presentation-card {
+    .presentation-card {
       align-content : center;
       align-items : center;
       justify-items : center;
@@ -70,17 +70,17 @@
       width : 100%;
       justify-self : start;
     }
-    #title {
+    .title {
       align-self : end;
       text-align : left;
       grid-area : title;
       justify-self : start;
     }
-    #subtitle {
+    .subtitle {
       align-self : start;
       padding : 1em;
     }
-    #content {
+    .content {
       align-self : start;
       padding-top : 1rem;
     }

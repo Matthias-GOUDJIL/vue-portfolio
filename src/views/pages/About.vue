@@ -1,13 +1,13 @@
 <template>
   <div class="about">
-    <div id="presentation-card">
+    <div class="presentation-card">
       <img
         :src="src"
         :alt="alt"
       >
-      <h3 id="title">{{ title }}</h3>
-      <p id="subtitle">{{ subtitle }}</p>
-      <p id="content">{{ content }}</p>
+      <h3 class="title">{{ title }}</h3>
+      <p class="subtitle">{{ subtitle }}</p>
+      <p class="content">{{ content }}</p>
     </div>
   </div>
 </template>
@@ -16,7 +16,7 @@
 export default {
   data() {
     return {
-      src: require("../../assets/img/profil.jpg"),
+      src: require("@/assets/img/profil.jpg"),
 
       title: "Intégrateur et developpeur web junior",
 
